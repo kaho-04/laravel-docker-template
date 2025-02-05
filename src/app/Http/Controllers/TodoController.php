@@ -10,6 +10,7 @@ class TodoController extends Controller
     public function index()
     {
         $todo = new Todo();
+        //dd($todo);
         $todos = $todo->all();
         //dd($todos);
 
